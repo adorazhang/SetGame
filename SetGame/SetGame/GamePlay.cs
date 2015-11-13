@@ -50,7 +50,7 @@ namespace SetGame
 
         /// <summary>
         /// Plays an entire game of set from beginning to end
-        /// and returns a list of each valid sets removed from the board
+        /// and returns a list of each valid set removed from the board
         /// </summary>
         public List<Set> Play()
         {
@@ -94,7 +94,7 @@ namespace SetGame
             Console.WriteLine("----------------------------------------\nAll Sets:");
             foreach(Set s in setsRemoved)
             {
-                Console.Write(s+"\n");
+                Console.WriteLine(s);
             }
             return setsRemoved;
         }
