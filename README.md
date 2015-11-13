@@ -1,4 +1,4 @@
-# Simple Set Game Implementation in C#
+# Simple Set Game Implementation in C# #
 > By Qiao "Adora" Zhang (adora91 on gmail)
 
 Overview
