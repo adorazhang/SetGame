@@ -1,0 +1,6 @@
+C:\Users\Qiao\Documents\GitHub\SetGame\SetGame\SetGame\bin\Debug\SetGame.exe.config
+C:\Users\Qiao\Documents\GitHub\SetGame\SetGame\SetGame\bin\Debug\SetGame.exe
+C:\Users\Qiao\Documents\GitHub\SetGame\SetGame\SetGame\bin\Debug\SetGame.pdb
+C:\Users\Qiao\Documents\GitHub\SetGame\SetGame\SetGame\obj\Debug\SetGame.csprojResolveAssemblyReference.cache
+C:\Users\Qiao\Documents\GitHub\SetGame\SetGame\SetGame\obj\Debug\SetGame.exe
+C:\Users\Qiao\Documents\GitHub\SetGame\SetGame\SetGame\obj\Debug\SetGame.pdb
