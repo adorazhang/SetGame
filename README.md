@@ -1,5 +1,5 @@
 # Simple Set Game Implementation in C#
-> By Qiao "Adora" Zhang (adora91@gmail.com)
+> By Qiao "Adora" Zhang (adora91 on gmail)
 
 Overview
 ----
