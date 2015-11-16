@@ -7,7 +7,7 @@ This program simulates a [set game].
 There are a few assumptions I have made:
   - User input is always valid.
   - Since it's a computer simulation, for each round, a random player will be picked as the first player who finds a set.
-  - Cards are randomly generated, i.e. no set of cards are pre-defined.
+  - Cards are randomly generated, i.e. no set of cards is pre-defined.
 
 To Run This Project
 ----
