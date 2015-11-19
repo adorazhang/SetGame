@@ -62,12 +62,11 @@ namespace SetGame
             List<Set> setsRemoved = new List<Set>();
             while (deck.Count != 0)
             {
-                Console.WriteLine("== Round " + (roundsPlayed + 1) + " ==");
+                Console.WriteLine("== Round " + (++roundsPlayed) + " ==");
                 Set set = board.HasASet();
                 if (set != null)
                 {
                     currentPlayer.WinsARound();
-                    Console.WriteLine(currentPlayer.name+": Set!");
                     //Console.WriteLine(set);
                     setsRemoved.Add(set);
                 }
@@ -78,12 +77,7 @@ namespace SetGame
                     {
                         DealCards(3);
                     }
-                    else
-                    {
-                        break;
-                    }
                 }
-                roundsPlayed++;
                 currentPlayer = GetNextPlayer();
             }
             Console.WriteLine("----------------------------------------\nScore Board: ");
