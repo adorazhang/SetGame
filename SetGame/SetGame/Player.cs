@@ -21,6 +21,7 @@
         public void WinsARound()
         {
             setsWon++;
+            Console.WriteLine(currentPlayer.name+": \"Set!\"");
         }
 
         public override string ToString()
