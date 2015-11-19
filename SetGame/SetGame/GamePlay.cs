@@ -60,7 +60,7 @@ namespace SetGame
             Console.WriteLine("== Game Set Up! ==");
             Player currentPlayer = GetNextPlayer();
             List<Set> setsRemoved = new List<Set>();
-            while (deck.Count != 0)
+            while (deck.Count > 0)
             {
                 Console.WriteLine("== Round " + (++roundsPlayed) + " ==");
                 Set set = board.HasASet();
@@ -73,10 +73,7 @@ namespace SetGame
                 else
                 {
                     Console.WriteLine("Draws another 3 cards...");
-                    if (deck.Count > 0)
-                    {
-                        DealCards(3);
-                    }
+                    DealCards(3);
                 }
                 currentPlayer = GetNextPlayer();
             }
