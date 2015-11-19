@@ -11,7 +11,7 @@ namespace SetGame
         {
             Red = 1,
             Green = 2,
-            Purple =3
+            Purple = 3
         };
 
         public enum Shape
